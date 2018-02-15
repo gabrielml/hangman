@@ -1,11 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Hangman game</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" type="text/css" href="ahorcado02.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="ahorcado02.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+
 </head>
 
 <body>
-    <script src="./index.js"></script>
-</body>
+<div class="contenedor">
+    <h1 id="titulo">Juego del ahorcado</h1>
+</div>
 
+<div class="contenedor">
+    <div class="botones">
+        <button class="boton jugar">Jugar</button>
+        <button class="boton borrar">Jugar otra vez</button>
+    </div>
+    <div class="tablero">
+        <div class="areaJuego">
+            <div id="teclado">
+            </div>
+            <div id="casillas">
+            </div>
+            <div class="canvas">
+                <canvas id="ahorcado">ERROR el navegador no admite la etiqueta "canvas" de HTML5</canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>

@@ -1,0 +1,93 @@
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ol,
+ul,
+li,
+a {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(img/spiration_dark.png);
+}
+
+#titulo {
+    text-align: center;
+}
+
+.tablero {
+    display: none;
+}
+
+.areaJuego {
+    display: flex;
+    justify-content: space-around;
+}
+
+.canvas {
+    background-image: url(img/dust_scratches.png);
+}
+
+#teclado, #casillas {
+    height: 180px;
+    padding: 0;
+    max-width: 525px;
+    background-color: silver;
+    background-image: url(img/squared_metal.png);
+}
+
+#teclado li, #casillas li {
+    float: left;
+    margin: 0 10px 5px 10px;
+    list-style: none;
+    width: 35px;
+    height: 30px;
+    padding-top: 10px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#ahorcado {
+    color: white;
+    padding: 15px;
+}
+
+.botones button {
+    margin: 20px 10px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #E82C0C;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.hide {
+    display: none;
+}

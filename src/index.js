@@ -1,6 +1,5 @@
 import {newGame} from './hangman';
+import {pintarAhorcado} from './canvas';
 
-const words = ['foo', 'bar', 'baz'];
-const game = newGame(words);
-
-console.log(game);
+window.newGame = newGame;
+window.pintarAhorcado = pintarAhorcado;
