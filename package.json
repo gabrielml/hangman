@@ -19,5 +19,7 @@
     "parcel-bundler": "^1.5.1",
     "regenerator-runtime": "^0.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "hangman-lib": "0.0.2"
+  }
 }
